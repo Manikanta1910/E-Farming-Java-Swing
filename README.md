@@ -47,3 +47,12 @@ It provides a platform for product management, buying, and basic data storage us
 2. Save the file as:
    ```bash
    EFarmingApp.java
+3.Open terminal in project folder
+
+4.Compile:
+
+javac EFarmingApp.java
+
+5.Run:
+
+java EFarmingApp

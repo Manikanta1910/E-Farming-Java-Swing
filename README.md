@@ -1,36 +1,49 @@
-# E-Farming-Java-Swing
-E-Farming – A Digital Platform for Farmers and Local Vendors (Java Swing + MySQL Project). This project provides separate modules for Admin, Seller, and Buyer with features like product management, buyer purchase history, and database integration.
-# 🌾 E-Farming – A Digital Platform for Farmers and Local Vendors  
+# 🌾 E-Farming – Java Swing Application
 
-## 📌 Project Overview  
-E-Farming is a **Java Swing Desktop Application** designed to connect **farmers (sellers)** with **local vendors (buyers)**.  
-It provides a simple platform where sellers can upload their products and buyers can browse, purchase, and track their history.  
+## 📌 Project Overview
+E-Farming is a Java Swing-based desktop application designed to connect farmers (sellers) with buyers.  
+It provides a platform for product management, buying, and basic data storage using files.
 
 ---
 
-## ✨ Features  
-### 👨‍💻 Admin  
-- Can view all registered sellers and buyers  
-- Can monitor product listings and purchases  
+## ✨ Features
 
-### 🧑‍🌾 Seller  
-- Register with details (Name, Address, Phone Number)  
-- Add, update, and delete products  
-- View product list  
+### 🔐 Authentication System
+- User Login & Registration (Admin, Seller, Buyer)
+- Stores user data in files
 
-### 🛒 Buyer  
-- Register with details (Name, Address, Phone Number)  
-- Browse available products  
-- Purchase products and view purchase history  
+### 👨‍🌾 Seller
+- Add products with price, quantity, and unit
+- View and delete their own products
+
+### 🛒 Buyer
+- View all products
+- Search products by name
+- Buy products with quantity selection
+- Bill generation after purchase
+
+### 👨‍💻 Admin
+- View all products
+- Delete any product
+
+### 💾 Data Storage
+- Products stored in `products.txt`
+- Users stored in `users.txt`
+- Bills generated as text files
 
 ---
 
-## 🛠️ Tech Stack  
-- **Programming Language**: Java  
-- **GUI**: Java Swing  
-- **Database**: MySQL  
-- **Connector**: JDBC  
+## 🛠️ Tech Stack
+- Java (Core Java)
+- Java Swing (GUI)
+- File Handling (BufferedReader, PrintWriter)
+- Collections (ArrayList)
 
 ---
 
-## 📂 Project Structure  
+## ▶️ How to Run
+
+1. Install Java (JDK)
+2. Save the file as:
+   ```bash
+   EFarmingApp.java

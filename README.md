@@ -46,13 +46,13 @@ It provides a platform for product management, buying, and basic data storage us
 1. Install Java (JDK)
 2. Save the file as:
    ```bash
-   EFarmingApp.java
+   EFarmingAppskll.java
 3.Open terminal in project folder
 
 4.Compile:
 
-javac EFarmingApp.java
+javac EFarmingAppskll.java
 
 5.Run:
 
-java EFarmingApp
+java EFarmingAppskll

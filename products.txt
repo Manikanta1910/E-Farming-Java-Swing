@@ -1,0 +1,4 @@
+apples;20.0;0;kg;manikanta
+milk;20.0;0;liters;manikanta
+fish;20.0;2;kg;manikanta
+apples;20.0;2;kg;rishi
